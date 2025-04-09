@@ -28,6 +28,7 @@ async def upload_sprite(file: UploadFile = File(...)):
     result = await db.sprites.insert_one(sprite_doc)
     return {"message": "Sprite uploaded", "id": str(result.inserted_id)}
 
+
 @app.post("/upload_audio")
 async def upload_audio(file: UploadFile = File(...)):
     content = await file.read()
