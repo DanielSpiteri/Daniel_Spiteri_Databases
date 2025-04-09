@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\.env",
-    "\\api",
     "\\env"
   ],
-  "SelectedNode": "\\api\\index.py",
+  "SelectedNode": "\\main.py",
   "PreviewInSolutionExplorer": false
 }
